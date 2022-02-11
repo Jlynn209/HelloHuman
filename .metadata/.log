@@ -1,0 +1,127 @@
+!SESSION 2022-02-10 17:02:34.269 -----------------------------------------------
+eclipse.buildId=4.13.1.202201311654
+java.version=17.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.ui 2 0 2022-02-10 17:02:56.125
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-02-10 17:02:56.125
+!MESSAGE Cannot bind to an undefined command: plug-in='com.genuitec.eclipse.theming.ui', id='com.genuitec.myeclipse.help.darktheme.commandid'
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2022-02-10 17:02:56.641
+!MESSAGE A DevStyle Theme is being activated on this workspace; preparing colors and configuration
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2022-02-10 17:02:56.670
+!MESSAGE DevStyle has archived current color configurations to alternate preferences - will be restored when switching out of the DevStyle Theme
+
+!ENTRY org.eclipse.jface 2 0 2022-02-10 17:02:57.329
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-02-10 17:02:57.329
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1e5921ec,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@309b6768,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-02-10 17:02:57.329
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@333e01c6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4f70b659,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-02-10 17:03:00.464
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Jeremy'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2022-02-10 17:03:47.577
+!MESSAGE Project facet wst.jsdt.web has not been defined. It is used in plugin org.eclipse.jst.server.core.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2022-02-10 17:03:47.578
+!MESSAGE Project facet wst.jsdt.web has not been defined. It is used in plugin org.eclipse.jst.server.preview.adapter.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2022-02-10 17:03:47.579
+!MESSAGE Project facet wst.jsdt.web has not been defined. It is used in plugin org.eclipse.jst.server.tomcat.core.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2022-02-10 17:03:47.579
+!MESSAGE Project facet wst.jsdt.web has not been defined. It is used in plugin org.eclipse.wst.server.http.core.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2022-02-10 17:03:47.580
+!MESSAGE Project facet wst.jsdt.web has not been defined. It is used in plugin org.eclipse.wst.server.preview.adapter.
+
+!ENTRY org.eclipse.ui 2 2 2022-02-10 17:04:04.263
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 17:04:09.830
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 17:04:09.831
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@1900447b[org.springframework.tooling.boot.ls:1.30.0.202201310805(id=564)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 17:04:09.834
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 17:04:09.853
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 17:04:11.962
+!MESSAGE Boot LS startup time from start to initialized: 2123ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 17:04:12.036
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.yIEZqrOdisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 17:04:12.039
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 17:04:12.042
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 17:04:12.043
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 17:04:12.043
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 17:04:12.043
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.yIEZqrOd => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 17:04:12.048
+!MESSAGE classpath=66 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 17:04:12.051
+!MESSAGE buffering callback sts4.classpath.yIEZqrOd HelloHuman false 66
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 17:04:12.052
+!MESSAGE executing callback sts4.classpath.yIEZqrOd 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 17:04:12.282
+!MESSAGE executing callback sts4.classpath.yIEZqrOd SUCCESS [done]
